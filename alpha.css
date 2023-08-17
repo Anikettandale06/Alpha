@@ -1,0 +1,236 @@
+position.html
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+}
+#navsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+#navsection #left h1{
+    font-size: 20px;
+}
+#navsection #left h1 span{
+    font-weight: 100;
+}
+#navsection #right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#navsection #right a{
+    text-decoration: none;
+    color: white;
+}
+#navsection #right button{
+    width: 64px;
+    height: 29px;
+    border-radius: 2px;
+    color: white;
+    border: 2px solid lightgray;
+    background-color: transparent;
+}
+#alphasection{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 85px;
+}
+#alphasection div{
+    text-align: center;
+}
+#alphasection div h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#alphasection div p{
+    font-size: 19px;
+    margin-bottom: 33px;
+}
+#alphasection div button{
+    width: 123px;
+    height: 43px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    color: gray;
+    background-color: white;
+}
+#alphasection div #learn{
+    background-color: transparent;
+    border: 2px solid gray;
+    color: white;
+}
+#mobilesection{
+    /* display: flex;
+    justify-content: center; */
+    color: rgb(65, 60, 60);
+}
+#mobilesection div{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 0px;
+}
+#mobilesection div h1{
+    font-size: 30px;
+}
+#mobilesection div p{
+    font-size: 18px;
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#mobilesection div img{
+    width: 100%;
+}
+#menu{
+    display: none;
+}
+#signupsection{
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+    gap: 20px;
+    width: 79%;
+    padding-right: 61px;
+    padding-left: 60px;
+    margin-right: auto;
+    font-size: 20px;
+}
+#iconsection{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #a3a2a3;
+}
+.fa.fa-bolt{
+    font-size: 30px;
+    background-color: #e89980;
+    border-radius: 100%;
+    padding: 20px 30px;
+}
+.fa.fa-area-chart{
+    font-size: 30px;
+    background-color: #7fcdb8;
+    border-radius: 100%;
+    padding: 28px 30px;
+}
+.fa.fa-cloud{
+    font-size: 30px;
+    background-color: #90b0ba;
+    border-radius: 100%;
+    padding: 26px 30px;
+}
+.fa.fa-lock{
+    font-size: 30px;
+    background-color: #e5cb95;
+    border-radius: 100%;
+    padding: 26px 34px;  
+}
+#div1{
+    border-right: 2px solid
+    #e5e5e5;
+    border-bottom: 2px solid
+    #e5e5e5;
+    position: relative;
+    top: 1px;
+    left: 3.5px;
+}
+#div4{
+    border-top: 2px solid
+    #e5e5e5;
+    border-left: 2px solid
+    #e5e5e5;
+}
+#iconsection #a div{
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+#iconsection #a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+/* -----mobile version----- */
+@media(max-width:600px){
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: rgb(196, 185, 185);
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #navsection{
+        display: none;
+    }
+    body{
+        background-size: 200%;
+        background-position-x: center;
+    }
+#alphasection{
+    margin-top: px;
+}
+#alphasection div{
+    width: 88%;
+}
+#alphasection div h1{
+    font-size: 30px;
+}
+#alphasection div p{
+    font-size: 17px;
+}
+#alphasection div button{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#mobilesection{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#mobilesection div{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
+#mobilesection div h1{
+    font-size: 23px;
+}
+#mobilesection div p{
+    font-size: 17px;
+}
+#alphasection div button{
+    width: 100%;
+    height: 44px;
+    margin-bottom: 17px;
+}
+#alphasection div #learn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid gray;
+
+}
+
+}
+
